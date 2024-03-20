@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
+
+.x-risu-text {
+    font-family: gaegu;
+    font-size: 14pt;
+    color: #e5e500;
+}
+
+.x-risu-text * {
+    font-family: gaegu;
+}
+
+.x-risu-quote {
+    color: white;
+}
+
+.x-risu-backtick {
+    color: lightblue;
+}
+
+.x-risu-aster3 {
+    font-style: italic;
+    font-weight: bold;
+    color: #b20000;
+}
+
+.x-risu-aster2 {
+    font-style: italic;
+    color: #e59400;
+}
+
+.x-risu-aster1 {
+    font-style: italic;
+    color: #b2b200;
+}
