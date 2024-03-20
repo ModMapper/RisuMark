@@ -16,7 +16,7 @@ function CharacterJS() {
         // HTML Tag
         /<\/?[^>\s\/]+([\s\/]+([^=>\s\/]+\s*=\s*("[^"]*"|'[^']*'|[^">\s\/][^>\s\/]*)|[^=>\s\/]+))*[\s\/]*>/,
         // Risu Tag
-        /<[^\s]*>|{{[^\s]*}}/,
+        /<[^\s].*>|{{[^\s].*}}/,
     ];
     const combinedRegex = new RegExp(backupRegex.map((r) => r.source).join('|'), "gi");
     const css = "<style>@import url('https://modmapper.github.io/risumark.css')</style>";
